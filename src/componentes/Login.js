@@ -5,7 +5,7 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password === 'suaSenha') { // Altere 'suaSenha' para a senha desejada
+    if (password === 'suaSenha') { 
       onLogin();
     } else {
       alert('Senha incorreta!');

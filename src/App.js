@@ -20,7 +20,7 @@ function App() {
 
   const handleLogin = () => setLoggedIn(true);
 
-  // Funções para o CRUD de Filmes
+
   const addFilm = () => {
     if (newFilm.trim()) {
       setFilms([...films, newFilm]);
@@ -52,7 +52,7 @@ function App() {
     setTimeout(() => setMessage(''), 3000);
   };
 
-  // Funções para o CRUD de Usuários
+ 
   const addUser = (user) => setUsers([...users, user]);
   
   const updateUser = (updatedUser) => {
